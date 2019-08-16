@@ -1,2 +1,2 @@
-# C-Collection
-Collection of my C program
+# Collection
+Contain my program collection
