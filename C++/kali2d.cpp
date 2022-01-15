@@ -10,12 +10,15 @@ int main()
   int C[2][5];
   int I,J,K;
 
-  int barisA = sizeof(A[0])/sizeof(int);
+  // hitung baris dan kolom dari array yang digunakan
+  int barisA = sizeof(A[0]) / sizeof(int);
   int kolomB = sizeof(B) / sizeof(B[0]);
 
   for (I=0; I<=1; I++)
   { for (J=0; J<=4; J++)
     {
+      // Jika jumlah baris dan kolom tidak sesuai,
+      // maka cetak kalimat return
       if (barisA != kolomB) {
         printf("Baris A dan Kolom B tidak sesuai!");
         return 0;
