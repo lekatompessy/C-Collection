@@ -1,0 +1,66 @@
+body {
+  background-color: maroon;
+}
+
+.container {
+  max-width: 900px;
+  background-color: white;
+}
+
+.row.border {
+  border: 0.5rem solid maroon !important;
+}
+
+#layer-atas {
+  height: min-content;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+#table-nama {
+  width: 60%;
+  border-style: double;
+  border-color: maroon;
+}
+
+#table-nama > thead > tr > th,
+#table-nama > tbody > tr > td {
+  border-width: unset;
+  border-style: double;
+}
+
+#nav-atas {
+  color: maroon;
+  border-top-width: 3px !important;
+  border-bottom-width: 3px !important;
+}
+
+#layer-bawah {
+  height: min-content;
+  padding: 2rem 2rem 2rem 1rem;
+}
+
+#layer-kiri {
+  min-width: 580px;
+  padding: unset;
+}
+
+.list-fakultas {
+  border: 1px solid maroon;
+}
+
+#konten-kiri,
+#konten-kanan {
+  height: 100%;
+}
+
+#layer-kanan {
+  min-width: 200px;
+}
+
+li::marker,
+#daftar-kanan {
+  color: maroon;
+  border-color: maroon !important;
+  margin-bottom: 0.5rem;
+}
